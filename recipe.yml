@@ -1,0 +1,20 @@
+name: 'Commerce Recipe: Admin UI'
+description: 'Enables Admin Toolbar and sets Centarro Claro as the default theme.'
+type: 'Commerce'
+recipes: []
+install:
+  - centarro_claro
+  - admin_toolbar
+  - admin_toolbar_tools
+  - help
+
+config:
+  strict: false
+  import:
+    centarro_claro: '*'
+    admin_toolbar: '*'
+    admin_toolbar_tools: '*'
+  actions:
+    system.theme:
+      simpleConfigUpdate:
+        admin: centarro_claro
