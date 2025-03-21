@@ -1,5 +1,5 @@
 {
-    "name": "drupal/commerce_recipe_admin_ui",
+    "name": "drupal/commerce_kickstart_admin_ui",
     "description": "Enables Admin Toolbar and sets Centarro Claro as the default theme.",
     "type": "drupal-recipe",
     "license": ["GPL-2.0-or-later"],

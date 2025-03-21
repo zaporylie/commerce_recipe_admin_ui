@@ -1,4 +1,4 @@
-name: 'Commerce Recipe: Admin UI'
+name: 'Commerce Kickstart: Admin UI'
 description: 'Enables Admin Toolbar and sets Centarro Claro as the default theme.'
 type: 'Commerce'
 recipes: []
